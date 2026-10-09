@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Iron Meridian</title>
+<meta name="theme-color" content="#0f181c" />
+<meta name="description" content="Real-time grand strategy: lead one of 64 nations against the world." />
+<!-- 6.4: installable app (PWA). Fonts are bundled, so the game runs offline once installed. -->
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Iron Meridian" />
+  <script type="module" crossorigin src="./assets/index-DAMY8UFo.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-RzZJeiv6.css">
+</head>
+<body>
+<div id="map"></div>
+<div id="app"></div>
+<style>
+  /* inline so it works even where the game's code never runs (e.g. the iPad Files preview) */
+  html, body { margin: 0; background: #0f181c; }
+  #boot { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 24px; text-align: center; color: #c9d2cf; font-family: -apple-system, system-ui, sans-serif; }
+  #boot .boot-title { font-weight: 600; font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
+  #boot .boot-hint { text-transform: none; letter-spacing: 0; font-weight: 500; max-width: 460px; font-size: 15px; line-height: 1.5; color: #e8dcc0; opacity: 0; animation: boot-show .01s 6s forwards; }
+  @keyframes boot-show { to { opacity: 1; } }
+</style>
+<div id="boot">
+  <span class="boot-title">Drawing the world map…</span>
+  <span class="boot-hint">Still on this screen? You are probably looking at a file preview, which cannot run the game. On a computer, open this file in Chrome, Safari, Edge or Firefox. On an iPad or iPhone, the Files app cannot run it: open the game's test link in Safari instead.</span>
+</div>
+</body>
+</html>
