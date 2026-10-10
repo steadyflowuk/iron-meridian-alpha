@@ -11,6 +11,9 @@ A real-time grand strategy game: lead one of 64 nations against the world (singl
 
 Once installed it runs full screen, works offline and updates itself (an "Update now" bar appears when a new version is ready).
 
+## Your account
+The first time you open the game it asks you to create an account (username, email, password). During the alpha the account is stored on your device: keep the recovery code it shows you (it resets your password), and use **Export account** on the Profile tab to keep a copy or move to another device. Every alpha account is an **Alpha Founder** and will carry over when online play opens.
+
 ## Report a bug
 In the game: **Report a bug** (home screen, or More in a campaign). Download the report, then open a [new issue](https://github.com/steadyflowuk/iron-meridian-alpha/issues/new) and attach the file. A free GitHub account is needed to post; otherwise send the file to the developer.
 
