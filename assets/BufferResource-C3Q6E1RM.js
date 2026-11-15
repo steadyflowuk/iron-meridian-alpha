@@ -1,4 +1,4 @@
-import{w as g,g as x,a as c,u as _,B as y,b as l,E as I,c as m}from"./index-BTwplRFd.js";const M={name:"texture-bit",vertex:{header:`
+import{c as g,g as x,d as c,u as _,B as y,e as l,E as I,f as m}from"./index-CVbeqo5U.js";const M={name:"texture-bit",vertex:{header:`
 
         struct TextureUniforms {
             uTextureMatrix:mat3x3<f32>,
@@ -162,4 +162,4 @@ import{w as g,g as x,a as c,u as _,B as y,b as l,E as I,c as m}from"./index-BTwp
         data[offset + 1] = v[1];
         data[offset + 2] = v[2];
         data[offset + 3] = v[3];
-    `};class w extends I{constructor({buffer:t,offset:a,size:s}){super(),this.uid=m("buffer"),this._resourceType="bufferResource",this._resourceId=m("resource"),this._bufferResource=!0,this.destroyed=!1,this.buffer=t,this.offset=a|0,this.size=s,this.buffer.on("change",this.onBufferChange,this)}get _gcLastUsed(){var t;return((t=this.buffer)==null?void 0:t._gcLastUsed)??-1}set _gcLastUsed(t){this.buffer&&(this.buffer._gcLastUsed=t)}onBufferChange(){this._resourceId=m("resource"),this.emit("change",this)}destroy(t=!1){this.destroyed=!0,t&&this.buffer.destroy(),this.emit("change",this),this.buffer=null,this.removeAllListeners()}}export{w as B,d as G,T as U,U as a,h as b,A as c,D as d,O as e,M as t,k as u};
+    `};class B extends I{constructor({buffer:t,offset:a,size:s}){super(),this.uid=m("buffer"),this._resourceType="bufferResource",this._resourceId=m("resource"),this._bufferResource=!0,this.destroyed=!1,this.buffer=t,this.offset=a|0,this.size=s,this.buffer.on("change",this.onBufferChange,this)}get _gcLastUsed(){var t;return((t=this.buffer)==null?void 0:t._gcLastUsed)??-1}set _gcLastUsed(t){this.buffer&&(this.buffer._gcLastUsed=t)}onBufferChange(){this._resourceId=m("resource"),this.emit("change",this)}destroy(t=!1){this.destroyed=!0,t&&this.buffer.destroy(),this.emit("change",this),this.buffer=null,this.removeAllListeners()}}export{B,d as G,T as U,U as a,h as b,A as c,D as d,O as e,M as t,k as u};
